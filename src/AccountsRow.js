@@ -11,7 +11,7 @@ export const AccountsRow = () => {
                 <img src={githubIcon} alt={"github account"} width={48} height={48}/>
             </a>
             <a href={'/'}>
-                <img src={linkedInIcon} alt={"LinkedIn account"} width={48} height={48}/>
+                <img src={linkedInIcon} alt={"LinkedIn account"} width={48} height={48} style={{"margin-top": "5px"}} />
             </a>
         </div>
     )
