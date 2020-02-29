@@ -10,7 +10,7 @@ export const AccountsRow = () => {
             <a href={"https://github.com/Ryaguy15"} style={{"margin-right": "50px"}} >
                 <img src={githubIcon} alt={"github account"} width={48} height={48}/>
             </a>
-            <a href={'/'}>
+            <a href={'https://www.linkedin.com/in/ryan-philipps-403398137'}>
                 <img src={linkedInIcon} alt={"LinkedIn account"} width={48} height={48} style={{"margin-top": "5px"}} />
             </a>
         </div>

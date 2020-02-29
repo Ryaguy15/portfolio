@@ -14,7 +14,7 @@ export function Project(props) {
                 <p className={'uk-text-center'}>{props.description}</p>
             </div>
             <div className={"uk-card-footer"}>
-                <a href={props.code} class="uk-button uk-button-text uk-align-center primary-color"><span className={'color-primary'}>See Code</span></a>
+                <a href={props.code} class="uk-button uk-button-text uk-align-center primary-color"><span className={'color-primary'}>See The Code</span></a>
             </div>
         </div>
     ) 
