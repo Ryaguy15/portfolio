@@ -50,10 +50,11 @@ function App() {
       <section id={"education-section"} className="uk-container">
         <h1 class={"uk-heading-line uk-text-center primary-color"}><span>Education</span></h1> 
         <h3 className="uk-text-meta uk-text-center">These are some of my favorite classes from college</h3>
-        <div className={" "} data-uk-grid>
-          <div><img src={techCampus} width={500}/></div>
-                <Course name={"Software Process and Management"}>
-                  <p className={"uk-text-right"}>
+        <div className={"row"}>
+          <div className={"column"}><img id={"techImage"} src={techCampus}/></div>
+          <div className={"column"}>
+                <Course name={"Software Process and Management"} top={true}>
+                  <p className={"uk-text-center"}>
                     Learned about Continous Integration
                     and how it improves software reliability and speed. 
                     Put these lessons in to practice by creating a wiki website using TDD and Travis CI processes. 
@@ -62,12 +63,13 @@ function App() {
                   </p>  
                 </Course>
                 <Course name={"Artifical Intelligence"}>
-                  <p className={"uk-text-right"}>
+                  <p className={"uk-text-center"}>
                     Created numerous A.I systems using different A.I algorithms.
-                    Built a pacman A.I using tree searchs and Preceptrons
+                    Built a pacman A.I using tree searches and Preceptrons
                   </p>  
                 </Course>
           </div>
+        </div>
       </section>
 
 
