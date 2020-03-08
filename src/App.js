@@ -7,17 +7,29 @@ import { Project } from './Project';
 import techchatIcon from "./techchat.png"
 import techCampus from "./michigan-tech-campus.jpg"
 import { Course } from './Course';
-import path2 from './Path2.svg'
+import clouds from "./Clouds.svg"
+import resume from './Ryan_Philipps_Resume.pdf'
 
 function App() {
+  /*
+  <div id={"transition"}>
+          <img src={bottom} alt={"transition shape to main content"}/>
+        </div>
+  */
   return (
     <div>
-      <header id={"landing"}>
-        <h2>Hello, I'm <span className="primary-color">Ryan Philipps</span></h2>
-        <h1>Software Developer</h1>
-        <button className={"button-shadow"}>Resumé</button>
-        <div id={"transition"}>
-          <img src={path2} alt={"transition shape to main content"}/>
+      <header id={"landing"} className={"uk-align-center"}>
+        <div id={"intro-text"}>
+          <h2 className={'white-text'}>Hello, I'm <strong>Ryan Philipps</strong></h2>
+          <h1 className={"white-text"}>Software Developer</h1>
+          <a href={resume} id={'resume-link'}>
+            <button className={"button-shadow"} style={{color: "white"}}>
+              Resumé
+            </button>
+          </a>
+        </div>
+        <div>
+          <img src={clouds}/>
         </div>
       </header>
 
@@ -39,10 +51,13 @@ function App() {
           <div>
             <Project title={"TechChat"} 
              description={"A forum website/app for Michigan Tech Students"} 
-             image={techchatIcon}/>
+             image={techchatIcon}
+             code={"https://github.com/mtuopensource/TechChat"}/>
            </div>
            <div>
-            <Project title="DevRamblings" description={"A blogging website with advance blog creator"}/>
+            <Project title="DevRamblings" 
+              description={"A blogging website with advance blog creator"}
+              code={"https://github.com/Ryaguy15/DevRamblings"}/>
           </div>
         </div>
       </section>
@@ -84,6 +99,9 @@ function App() {
           </a>
         </div>
       </section>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }
