@@ -56,7 +56,7 @@ function App() {
            </div>
            <div>
             <Project title="DevRamblings" 
-              description={"A blogging website with advance blog creator"}
+              description={"A blogging website with an advance blog creator"}
               code={"https://github.com/Ryaguy15/DevRamblings"}/>
           </div>
         </div>
@@ -70,17 +70,16 @@ function App() {
           <div className={"column"}>
                 <Course name={"Software Process and Management"} top={true}>
                   <p className={"uk-text-center"}>
-                    Learned about Continous Integration
-                    and how it improves software reliability and speed. 
-                    Put these lessons in to practice by creating a wiki website using TDD and Travis CI processes. 
-                    One requirement was to have at least 80% code coverage by our RSpec unit tests.
-                    The class also explored how to refactor code by employing common design patterns
+                    Learned about Continuous Integration, and how to boost the efficiency and speed of software development.  
+                    By using TDD and Travis CI processes, we brought those lessons into action by building a wiki website. 
+                    One criterion was for our RSpec unit tests to have at least 80 per cent code coverage. 
+                    The class also looked at how to refactor code using common design patterns.
                   </p>  
                 </Course>
                 <Course name={"Artifical Intelligence"}>
                   <p className={"uk-text-center"}>
-                    Created numerous A.I systems using different A.I algorithms.
-                    Built a pacman A.I using tree searches and Preceptrons
+                  Numerous A.I systems were built using different A.I algorithms. 
+                  Created an A.I pacman using Preceptrons and Tree Searches.
                   </p>  
                 </Course>
           </div>
