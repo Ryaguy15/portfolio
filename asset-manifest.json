@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac5bf153.chunk.css",
+    "main.js": "/static/js/main.b9c3aec8.chunk.js",
+    "main.js.map": "/static/js/main.b9c3aec8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
+    "static/css/2.c7057cf3.chunk.css": "/static/css/2.c7057cf3.chunk.css",
+    "static/js/2.0c44b3b0.chunk.js": "/static/js/2.0c44b3b0.chunk.js",
+    "static/js/2.0c44b3b0.chunk.js.map": "/static/js/2.0c44b3b0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.af285af612b70330e18fdaff04a84dd3.js": "/precache-manifest.af285af612b70330e18fdaff04a84dd3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c7057cf3.chunk.css.map": "/static/css/2.c7057cf3.chunk.css.map",
+    "static/css/main.ac5bf153.chunk.css.map": "/static/css/main.ac5bf153.chunk.css.map",
+    "static/js/2.0c44b3b0.chunk.js.LICENSE.txt": "/static/js/2.0c44b3b0.chunk.js.LICENSE.txt",
+    "static/media/Clouds.svg": "/static/media/Clouds.267e1978.svg",
+    "static/media/Ryan_Philipps_Resume.pdf": "/static/media/Ryan_Philipps_Resume.1fb3031e.pdf",
+    "static/media/michigan-tech-campus.jpg": "/static/media/michigan-tech-campus.f696c8d2.jpg",
+    "static/media/techchat.png": "/static/media/techchat.70ace1a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b20a0b.js",
+    "static/css/2.c7057cf3.chunk.css",
+    "static/js/2.0c44b3b0.chunk.js",
+    "static/css/main.ac5bf153.chunk.css",
+    "static/js/main.b9c3aec8.chunk.js"
+  ]
+}
