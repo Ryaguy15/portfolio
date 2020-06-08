@@ -36,8 +36,8 @@ function App() {
       <section className={"content uk-container"} id={"aboutme-section"}>
         <h1 class="uk-heading-line uk-text-center primary-color"><span>About Me</span></h1>
         <p className={"uk-text-center"}>
-          Results-oriented software engineering student with experience developing simulation software and user experience features. 
-          A team player with a positive attitude who welcomes challenging projects. 
+          Results-oriented software engineering professional with experience developing simulation software and user experience features. 
+          A team player with a positive attitude who is seeking challenging projects. 
         </p>
         <AccountsRow/>
         <br/>
